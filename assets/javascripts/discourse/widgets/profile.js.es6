@@ -74,7 +74,7 @@ export default createWidget('nova-future', {
     var data = Discourse.Category.list();
     if (path == "discovery.latest" || path == "discovery.top")
     {
-        contents.push(h("h2.novatitle", [h("a.what", {attributes:{href: "/t/نوآوری-جمعی-در-پادپُرس-چه-جوری-کار-میکنه؟/3601#CreateNova"}}, "نوآ"), "های آینده"]));
+        contents.push(h("h2.novatitle", [h("a.what", {attributes:{href: "/t/نوآوری-جمعی-در-پادپُرس-چه-جوری-کار-میکنه؟/3601#CreateNova" ,target: "_blank"}}, "نوآ"), "های آینده"]));
          for (var i = 0 ; i < data.length ; i++) 
         {
             if (data[i].slug[0] == "f" && data[i].slug[1] == "u" && data[i].slug[2] == "t" && data[i].slug[3] == "u" && data[i].slug[4] == "r" && data[i].slug[5] == "e") 
